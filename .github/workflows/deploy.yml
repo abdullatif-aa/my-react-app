@@ -1,7 +1,7 @@
 name: Deploy React App to Ubuntu VM
 
 on:
-  # push:
+  push:
     branches:
       - main
 
