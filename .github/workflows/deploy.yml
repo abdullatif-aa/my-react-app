@@ -16,7 +16,7 @@ jobs:
     - name: Deploy to VM using SSH and password
       uses: appleboy/ssh-action@v1.0.3
       with:
-        host: ${{ secrets.VM_HOST }}
+        host: ${{ secrets.VM_HOST2 }}
         username: ${{ secrets.VM_USER }}
         password: ${{ secrets.VM_PASSWORD }}
         script: |
